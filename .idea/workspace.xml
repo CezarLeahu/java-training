@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="315b2296-f721-4b11-819c-e20310bb532c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/session1/src/main/java/org/example/collections/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session1/src/main/java/org/example/collections/CarWithMissingHashCodeAndEquals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session1/src/test/java/org/example/TestCollections.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session1/src/test/java/org/example/exceptions/TestExceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/session1/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session1/src/test/java/org/example/TestCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/session1/src/test/java/org/example/collections/TestCollections.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +57,11 @@
     <property name="project.structure.side.proportion" value="0.3632184" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.collections" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.TestCollections.testToUppercase">
     <configuration name="TempFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.exceptions.TempFileWriter" />
@@ -77,12 +80,12 @@
       <module name="session1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestCollections" />
+      <option name="PACKAGE_NAME" value="org.example.collections" />
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.TestCollections" />
       <option name="METHOD_NAME" value="testCarSetWithMissingHashCodeAndEqual" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -93,12 +96,12 @@
       <module name="session1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestCollections" />
+      <option name="PACKAGE_NAME" value="org.example.collections" />
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.TestCollections" />
       <option name="METHOD_NAME" value="testCarSets" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -109,12 +112,12 @@
       <module name="session1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.TestCollections" />
+      <option name="PACKAGE_NAME" value="org.example.collections" />
+      <option name="MAIN_CLASS_NAME" value="org.example.collections.TestCollections" />
       <option name="METHOD_NAME" value="testToUppercase" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -155,7 +158,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651696836588</updated>
-      <workItem from="1651696837862" duration="24181000" />
+      <workItem from="1651696837862" duration="24604000" />
     </task>
     <servers />
   </component>

@@ -102,11 +102,12 @@ Collections
 ---
 * Arrays should be avoided
 * Lists, Sets and Maps
-* `equals()` and `hashCode()`
-* Immutable collections should be used (but carefully):
-  * Sets.of(...), Lists.of(...), Maps.of(...)
+* `equals()` and `hashCode()` (*)
+* Immutable collections should be used (but carefully): (*)
+  * Set.of(...), List.of(...), Map.of(...)
   * Collections.unmodifiableSet()
   * Collections.singleton()
+  * Sets and Maps help with algorithm O complexity (they've got O(1) for element  insertion and retrieval)
 
 > Methods should accept interface types and should return concrete types.
 > e.g. `public LinkedHashSet<String> sort(Collection<String> elements) {...}`
