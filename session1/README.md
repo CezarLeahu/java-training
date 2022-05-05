@@ -55,6 +55,11 @@ An **object**:
   - is an instance of a class
   - it contains both **data** and **behaviour**
 
+> **A word about programming and software:** \
+> Fundamentally, all that code/software does is to manipulate data. It retrieves, modifies and sends data away.\
+> Every method in the code has an "IN" and an "OUT".
+
+
 ### Encapsulation:
   - _public, package-private, protected, private_ visibility for fields, methods and classes
   - **accessors** (getters & setters) are used to provide access to actual fields:
@@ -65,10 +70,11 @@ An **object**:
       "_retrieve_" or "_compute_")
 
 ### Inheritance and Polymorphism
-Class hierarchies:
-  - Overriding vs Overloading *
 
-Interfaces
+Class hierarchies:
+  - Overriding vs Overloading (*)
+
+Interfaces (*)
   - represent pure behaviour
   - no data (no fields, only public methods)
   - can contain _Default methods_ (since Java 8)
@@ -81,15 +87,15 @@ Abstract Classes
   - they reduce code duplication, but they can significantly increase its complexity
   - create tight-coupling
 
-> Interface usage generally is a great addition o a codebase, it improves loose coupling, it emphasises the behaviour,
-> and it can also simplify testing.
-> Abstract classes and Class hierarchies on the other hand, usually obfuscate the code and the logic, and even with a
+> *Interface usage* generally is a great addition o a codebase, it improves loose coupling, it emphasises the behaviour,
+> and it can also simplify testing.\
+> *Abstract classes* and Class hierarchies on the other hand, usually obfuscate the code and the logic, and even with a
 > powerful IDE it's often difficult to follow multi-layered class hierarchies.
 
-Anchor vs Strategy pattern *
-- anchors, should be avoided
-- strategy should be used
-- Composition over Inheritance
+Anchor vs Strategy pattern (*)
+- **Anchors** (**hooks**) pattern should be avoided
+- the **Strategy** pattern should be used
+- **Composition** over **Inheritance**
 
 
 Collections
@@ -98,14 +104,18 @@ Collections
 * Lists, Sets and Maps
 * `equals()` and `hashCode()`
 * Immutable collections should be used (but carefully):
-    * Sets.of(...), Lists.of(...), Maps.of(...)
-    * Collections.unmodifiableSet()
-    * Collections.singleton()
+  * Sets.of(...), Lists.of(...), Maps.of(...)
+  * Collections.unmodifiableSet()
+  * Collections.singleton()
 
 > Methods should accept interface types and should return concrete types.
 > e.g. `public LinkedHashSet<String> sort(Collection<String> elements) {...}`
 
 > The mark of a good programmer is his proclivity to use Sets and Maps.
+
+> It's a given that code should work, and be secure, and without any performance issues.
+> But apart from that, the code should be readable. Particularly Java code, which is a high-level language by design.
+> It's inherently not particularly efficient. It's more important for it to be readable and maintainable.
 
 Exceptions
 ---
@@ -113,3 +123,8 @@ Exceptions
 * Exception hierarchy (Throwable, Error, Exception, RuntimeException)
 * _try-catch-finally_ (Autoclosable interface)
 * _try-with-resources_ (Autoclosable interface)
+
+
+References
+---
+* [Java Novice to Javanista course on Percipio](https://ness.percipio.com/journey/717919cf-1692-4bcd-b1ab-db5304aedcad)

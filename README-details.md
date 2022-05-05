@@ -62,6 +62,7 @@
     - formatting
   - collectors
     - custom collectors
+  - handling exceptions in calls from streams
   - immutable 
   - (Optional) Zone Date Time?
   - Reactive programming?

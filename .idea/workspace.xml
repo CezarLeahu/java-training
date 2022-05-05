@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="315b2296-f721-4b11-819c-e20310bb532c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session1/src/main/java/org/example/collections/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session1/src/main/java/org/example/collections/CarWithMissingHashCodeAndEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session1/src/test/java/org/example/TestCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session1/src/test/java/org/example/exceptions/TestExceptions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session1/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +19,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,33 +59,79 @@
     <property name="project.structure.side.proportion" value="0.3632184" />
     <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
-  <component name="RunManager" selected="JUnit.TestColors">
-    <configuration name="TestColors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestCollections.testToUppercase">
+    <configuration name="TempFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.exceptions.TempFileWriter" />
       <module name="session1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.overridingoverloading.*" />
+          <option name="PATTERN" value="org.example.exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.overridingoverloading" />
-      <option name="MAIN_CLASS_NAME" value="org.example.overridingoverloading.TestColors" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestColors.testOverridingAndOverloading" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCollections.testCarSetWithMissingHashCodeAndEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="session1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.overridingoverloading.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.overridingoverloading" />
-      <option name="MAIN_CLASS_NAME" value="org.example.overridingoverloading.TestColors" />
-      <option name="METHOD_NAME" value="testOverridingAndOverloading" />
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestCollections" />
+      <option name="METHOD_NAME" value="testCarSetWithMissingHashCodeAndEqual" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCollections.testCarSets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestCollections" />
+      <option name="METHOD_NAME" value="testCarSets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCollections.testToUppercase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="MAIN_CLASS_NAME" value="org.example.TestCollections" />
+      <option name="METHOD_NAME" value="testToUppercase" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestComplicatedAlgorithm.runAlgorithmsWithReversedOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.strategy" />
+      <option name="MAIN_CLASS_NAME" value="org.example.strategy.TestComplicatedAlgorithm" />
+      <option name="METHOD_NAME" value="runAlgorithmsWithReversedOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,8 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestColors" />
-        <item itemvalue="JUnit.TestColors.testOverridingAndOverloading" />
+        <item itemvalue="JUnit.TestCollections.testToUppercase" />
+        <item itemvalue="JUnit.TestCollections.testCarSetWithMissingHashCodeAndEqual" />
+        <item itemvalue="JUnit.TestCollections.testCarSets" />
+        <item itemvalue="Application.TempFileWriter" />
+        <item itemvalue="JUnit.TestComplicatedAlgorithm.runAlgorithmsWithReversedOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +155,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651696836588</updated>
-      <workItem from="1651696837862" duration="11153000" />
+      <workItem from="1651696837862" duration="24181000" />
     </task>
     <servers />
   </component>
