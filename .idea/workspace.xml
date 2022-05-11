@@ -5,9 +5,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="315b2296-f721-4b11-819c-e20310bb532c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_9_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/aop/Advices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/aop/Ledger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/aopwithannotations/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/aopwithannotations/Loggable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/aopwithannotations/LoggableAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/lombok/CarInPlainJava.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/lombok/CarWithLombok.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/testing/BodyShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/testing/CarDealership.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/testing/RepairShop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/test/java/org/example/aop/TestAspectj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/test/java/org/example/aopwithannotations/TestAopWithAnnotations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session2/src/test/java/org/example/testing/TestCarDealership.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session1/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/session1/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session1/src/test/java/org/example/TestCollections.java" beforeDir="false" afterPath="$PROJECT_DIR$/session1/src/test/java/org/example/collections/TestCollections.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/session2/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session2/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session2/session2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/session2/session2.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session3/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session4/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,94 +72,99 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="go.format.on.save.advertiser.fired" value="true" />
     <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="temurin-17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3632184" />
-    <property name="settings.editor.selected.configurable" value="build.tools" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.aopwithannotations" />
+      <recent name="org.example.aop" />
       <recent name="org.example.collections" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCollections.testToUppercase">
-    <configuration name="TempFileWriter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.exceptions.TempFileWriter" />
-      <module name="session1" />
+  <component name="RunManager" selected="JUnit.TestAopWithAnnotations.runAlgorithm">
+    <configuration name="TestAopWithAnnotations.runAlgorithm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.exceptions.*" />
+          <option name="PATTERN" value="org.example.aopwithannotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCollections.testCarSetWithMissingHashCodeAndEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.collections.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.collections" />
-      <option name="MAIN_CLASS_NAME" value="org.example.collections.TestCollections" />
-      <option name="METHOD_NAME" value="testCarSetWithMissingHashCodeAndEqual" />
+      <option name="PACKAGE_NAME" value="org.example.aopwithannotations" />
+      <option name="MAIN_CLASS_NAME" value="org.example.aopwithannotations.TestAopWithAnnotations" />
+      <option name="METHOD_NAME" value="runAlgorithm" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCollections.testCarSets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session1" />
+    <configuration name="TestAspectj.testLedger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="PATTERN" value="org.example.aop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.collections" />
-      <option name="MAIN_CLASS_NAME" value="org.example.collections.TestCollections" />
-      <option name="METHOD_NAME" value="testCarSets" />
+      <option name="PACKAGE_NAME" value="org.example.aop" />
+      <option name="MAIN_CLASS_NAME" value="org.example.aop.TestAspectj" />
+      <option name="METHOD_NAME" value="testLedger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCollections.testToUppercase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session1" />
+    <configuration name="TestCarDealership" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.collections.*" />
+          <option name="PATTERN" value="org.example.testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.collections" />
-      <option name="MAIN_CLASS_NAME" value="org.example.collections.TestCollections" />
-      <option name="METHOD_NAME" value="testToUppercase" />
+      <option name="PACKAGE_NAME" value="org.example.testing" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testing.TestCarDealership" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCarDealership.testMethodOutputOtherThanTheReturnValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.testing.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.testing" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testing.TestCarDealership" />
+      <option name="METHOD_NAME" value="testMethodOutputOtherThanTheReturnValue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestComplicatedAlgorithm.runAlgorithmsWithReversedOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session1" />
+    <configuration name="TestCarDealership.testRepairCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.strategy.*" />
+          <option name="PATTERN" value="org.example.testing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.strategy" />
-      <option name="MAIN_CLASS_NAME" value="org.example.strategy.TestComplicatedAlgorithm" />
-      <option name="METHOD_NAME" value="runAlgorithmsWithReversedOrder" />
+      <option name="PACKAGE_NAME" value="org.example.testing" />
+      <option name="MAIN_CLASS_NAME" value="org.example.testing.TestCarDealership" />
+      <option name="METHOD_NAME" value="testRepairCost" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -142,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCollections.testToUppercase" />
-        <item itemvalue="JUnit.TestCollections.testCarSetWithMissingHashCodeAndEqual" />
-        <item itemvalue="JUnit.TestCollections.testCarSets" />
-        <item itemvalue="Application.TempFileWriter" />
-        <item itemvalue="JUnit.TestComplicatedAlgorithm.runAlgorithmsWithReversedOrder" />
+        <item itemvalue="JUnit.TestAopWithAnnotations.runAlgorithm" />
+        <item itemvalue="JUnit.TestCarDealership.testMethodOutputOtherThanTheReturnValue" />
+        <item itemvalue="JUnit.TestCarDealership" />
+        <item itemvalue="JUnit.TestCarDealership.testRepairCost" />
+        <item itemvalue="JUnit.TestAspectj.testLedger" />
       </list>
     </recent_temporary>
   </component>
@@ -158,8 +188,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1651696836588</updated>
-      <workItem from="1651696837862" duration="24604000" />
+      <workItem from="1651696837862" duration="32653000" />
+      <workItem from="1651941191619" duration="8091000" />
+      <workItem from="1652308262372" duration="1294000" />
+      <workItem from="1652309591304" duration="10616000" />
+      <workItem from="1652343790190" duration="9944000" />
     </task>
+    <task id="LOCAL-00001" summary="Session 2">
+      <created>1652309216949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1652309216949</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Session 2">
+      <created>1652309256107</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1652309256107</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Session 2">
+      <created>1652316877436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652316877436</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +224,11 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
         <entry key="d52e53f2-0c50-452a-a87f-fc78a023923d">
           <value>
             <State>
@@ -200,5 +261,9 @@
         <entry key="d52e53f2-0c50-452a-a87f-fc78a023923d" value="TOOL_WINDOW" />
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Session 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Session 2" />
   </component>
 </project>

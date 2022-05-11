@@ -40,7 +40,7 @@ public class TempFileWriter {
         try (Writer w = new FileWriter("/tmp/" + randomUUID() + ".tmp")) {
             w.write("Some useless file!\n");
             w.flush();
-        } catch (Exception e) {
+        } catch (IOException e) {
             System.out.println("Some IO exception occurred while writing or closing the file");
         }
     }
