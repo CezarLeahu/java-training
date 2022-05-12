@@ -5,34 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="315b2296-f721-4b11-819c-e20310bb532c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_12_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_12_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_9_9_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_junit_jupiter_4_5_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_24.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/aop/Advices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/aop/Ledger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/aopwithannotations/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/aopwithannotations/Loggable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/aopwithannotations/LoggableAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/lombok/CarInPlainJava.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/lombok/CarWithLombok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/testing/BodyShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/testing/CarDealership.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/main/java/org/example/testing/RepairShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/test/java/org/example/aop/TestAspectj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/test/java/org/example/aopwithannotations/TestAopWithAnnotations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/session2/src/test/java/org/example/testing/TestCarDealership.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session2/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/session2/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session2/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session2/session2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/session2/session2.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session3/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session3/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session4/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +165,7 @@
       <workItem from="1651941191619" duration="8091000" />
       <workItem from="1652308262372" duration="1294000" />
       <workItem from="1652309591304" duration="10616000" />
-      <workItem from="1652343790190" duration="9944000" />
+      <workItem from="1652343790190" duration="10570000" />
     </task>
     <task id="LOCAL-00001" summary="Session 2">
       <created>1652309216949</created>
@@ -215,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652316877436</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Session 2">
+      <created>1652356459582</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652356459582</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

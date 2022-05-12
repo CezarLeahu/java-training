@@ -167,3 +167,8 @@ case, where we would otherwise need an integration test.
 
 > Bear in mind, though, excessive mocking quickly becomes unproductive. Better to have a bunch of clear, simple and 
 > obvious integration test, rather than a complex, difficult to maintain mock.
+ 
+References
+---
+* [Java Novice to Javanista course on Percipio](https://ness.percipio.com/journey/717919cf-1692-4bcd-b1ab-db5304aedcad)
+* [AspectJ Pointcut Language](https://www.eclipse.org/aspectj/doc/released/progguide/semantics-pointcuts.html)
