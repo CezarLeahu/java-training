@@ -13,13 +13,14 @@ import static org.mockito.ArgumentMatchers.eq;
 import static org.mockito.Mockito.doReturn;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
+import static org.mockito.Mockito.when;
 
 @ExtendWith(MockitoExtension.class)
 public class TestCarDealership {
 
     @Mock
     BodyShop bodyShop;
-    @Spy
+    @Spy @InjectMocks
     RepairShop repairShop;
 
     @InjectMocks
@@ -32,8 +33,9 @@ public class TestCarDealership {
 
     @Test
     public void testMethodOutputForTheGivenInputWithMocks() {
-        doReturn(1).when(bodyShop).repairCost(any());
-        doReturn(3).when(repairShop).repairCost(any());
+        when(bodyShop.repairCost(any())).thenReturn(1);
+
+        when(repairShop.repairCost(any())).thenReturn(3);
 
         assertEquals(4, carDealership.repairCost("{}"));
     }

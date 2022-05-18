@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="315b2296-f721-4b11-819c-e20310bb532c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/session3/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/src/test/java/org/example/multithreading/org/example/multithreading/threadlocals/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/session3/src/test/java/org/example/multithreading/org/example/multithreading/threadlocals/TestServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +56,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3632184" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -63,81 +65,82 @@
       <recent name="org.example.collections" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAopWithAnnotations.runAlgorithm">
-    <configuration name="TestAopWithAnnotations.runAlgorithm" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session2" />
+  <component name="RunManager" selected="JUnit.TestServer.checkRequestIds">
+    <configuration name="TestAtomicVariables.testAtomicInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.aopwithannotations.*" />
+          <option name="PATTERN" value="org.example.multithreading.org.example.multithreading.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.aopwithannotations" />
-      <option name="MAIN_CLASS_NAME" value="org.example.aopwithannotations.TestAopWithAnnotations" />
-      <option name="METHOD_NAME" value="runAlgorithm" />
+      <option name="PACKAGE_NAME" value="org.example.multithreading.org.example.multithreading.concurrency" />
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.org.example.multithreading.concurrency.TestAtomicVariables" />
+      <option name="METHOD_NAME" value="testAtomicInteger" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAspectj.testLedger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session2" />
+    <configuration name="TestAtomicVariables.testSimpleCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.aop.*" />
+          <option name="PATTERN" value="org.example.multithreading.org.example.multithreading.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.aop" />
-      <option name="MAIN_CLASS_NAME" value="org.example.aop.TestAspectj" />
-      <option name="METHOD_NAME" value="testLedger" />
+      <option name="PACKAGE_NAME" value="org.example.multithreading.org.example.multithreading.concurrency" />
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.org.example.multithreading.concurrency.TestAtomicVariables" />
+      <option name="METHOD_NAME" value="testSimpleCounter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCarDealership" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session2" />
+    <configuration name="TestAtomicVariables.testSynchronizedCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.testing.*" />
+          <option name="PATTERN" value="org.example.multithreading.org.example.multithreading.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.testing" />
-      <option name="MAIN_CLASS_NAME" value="org.example.testing.TestCarDealership" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestCarDealership.testMethodOutputOtherThanTheReturnValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.testing.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.testing" />
-      <option name="MAIN_CLASS_NAME" value="org.example.testing.TestCarDealership" />
-      <option name="METHOD_NAME" value="testMethodOutputOtherThanTheReturnValue" />
+      <option name="PACKAGE_NAME" value="org.example.multithreading.org.example.multithreading.concurrency" />
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.org.example.multithreading.concurrency.TestAtomicVariables" />
+      <option name="METHOD_NAME" value="testSynchronizedCounter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestCarDealership.testRepairCost" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session2" />
+    <configuration name="TestAtomicVariables.testVolatileCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.testing.*" />
+          <option name="PATTERN" value="org.example.multithreading.org.example.multithreading.concurrency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.testing" />
-      <option name="MAIN_CLASS_NAME" value="org.example.testing.TestCarDealership" />
-      <option name="METHOD_NAME" value="testRepairCost" />
+      <option name="PACKAGE_NAME" value="org.example.multithreading.org.example.multithreading.concurrency" />
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.org.example.multithreading.concurrency.TestAtomicVariables" />
+      <option name="METHOD_NAME" value="testVolatileCounter" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestServer.checkRequestIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.multithreading.org.example.multithreading.threadlocals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.multithreading.org.example.multithreading.threadlocals" />
+      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.org.example.multithreading.threadlocals.TestServer" />
+      <option name="METHOD_NAME" value="checkRequestIds" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestAopWithAnnotations.runAlgorithm" />
-        <item itemvalue="JUnit.TestCarDealership.testMethodOutputOtherThanTheReturnValue" />
-        <item itemvalue="JUnit.TestCarDealership" />
-        <item itemvalue="JUnit.TestCarDealership.testRepairCost" />
-        <item itemvalue="JUnit.TestAspectj.testLedger" />
+        <item itemvalue="JUnit.TestServer.checkRequestIds" />
+        <item itemvalue="JUnit.TestAtomicVariables.testAtomicInteger" />
+        <item itemvalue="JUnit.TestAtomicVariables.testSynchronizedCounter" />
+        <item itemvalue="JUnit.TestAtomicVariables.testVolatileCounter" />
+        <item itemvalue="JUnit.TestAtomicVariables.testSimpleCounter" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +168,9 @@
       <workItem from="1651941191619" duration="8091000" />
       <workItem from="1652308262372" duration="1294000" />
       <workItem from="1652309591304" duration="10616000" />
-      <workItem from="1652343790190" duration="10570000" />
+      <workItem from="1652343790190" duration="18858000" />
+      <workItem from="1652779562776" duration="1050000" />
+      <workItem from="1652784047330" duration="36385000" />
     </task>
     <task id="LOCAL-00001" summary="Session 2">
       <created>1652309216949</created>
@@ -195,7 +200,35 @@
       <option name="project" value="LOCAL" />
       <updated>1652356459582</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Session 2 - References">
+      <created>1652358180124</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652358180124</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Session 3 - Multithreading">
+      <created>1652911550553</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652911550553</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Session 3 - Multithreading">
+      <created>1652958411637</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652958411637</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Session 3 - Multithreading">
+      <created>1652963546205</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652963546205</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +277,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Session 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Session 2" />
+    <MESSAGE value="Session 2 - References" />
+    <MESSAGE value="Session 3 - Multithreading" />
+    <option name="LAST_COMMIT_MESSAGE" value="Session 3 - Multithreading" />
   </component>
 </project>

@@ -93,9 +93,13 @@ public class TestGenerics {
 
         // Some time later
 
-        int age = (int) ctx.getBean("age");
-        Date admissionDate = Date.from((Instant) ctx.getBean("admission"));
-        String name = (String) ctx.getBean("name");
+        //int age = (int) ctx.getBean("age");
+        //Date admissionDate = Date.from((Instant) ctx.getBean("admission"));
+        //String name = (String) ctx.getBean("name");
+
+        Integer age = ctx.getBean("age", Integer.class);
+        Date admissionDate = Date.from(ctx.getBean("admission", Instant.class));
+        String name = ctx.getBean("name", String.class);
 
         System.out.println("Name: " + name);
         System.out.println("Age: " + age);
@@ -139,6 +143,9 @@ public class TestGenerics {
         // List<Object> anotherListOfObjecs = new ArrayList<Integer>(); // compilation error
 
         // Valid casts
+        List<?> unknownStrings = strings;
+        System.out.println(unknownStrings);
+
         Collection<String> collectionOfStrings = strings;
         System.out.println(collectionOfStrings);
 

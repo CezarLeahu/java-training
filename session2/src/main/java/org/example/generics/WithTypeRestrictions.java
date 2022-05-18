@@ -10,7 +10,7 @@ public class WithTypeRestrictions {
     }
 
     public static <T extends Number & Comparable<T>> T searchMaxValue(Collection<T> elems) {
-        return elems.stream().max(Comparable::compareTo).orElse(null);
+        return elems.stream().max((a, b) -> a.compareTo(b)).orElse(null);
     }
 
     public static <T> T searchMax(Collection<T> elems, Comparator<T> comparator) {
