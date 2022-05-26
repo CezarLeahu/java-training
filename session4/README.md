@@ -1,4 +1,4 @@
-Multithreading in Java
+Functional Programming in Java
 ===
 
 > *IDE Usage:* when it comes to lambdas and streams, 
