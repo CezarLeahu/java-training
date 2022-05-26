@@ -31,7 +31,7 @@ public class TestMessageContainer {
 
                 synchronized (sharedResource) {
                     sharedResource.setMessage("Message " + i);
-                    sharedResource.notify();
+                    sharedResource.notifyAll();
                 }
 
                 Thread.sleep(3000);

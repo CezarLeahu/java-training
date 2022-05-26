@@ -6,6 +6,8 @@ public class ServerContainer {
             Context.generateRequestId();
 
             new RequestHandler().handle(request);
+
+            // log something
         }).start();
     }
 }

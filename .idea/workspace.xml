@@ -4,10 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="315b2296-f721-4b11-819c-e20310bb532c" name="Changes" comment="">
+    <list default="true" id="315b2296-f721-4b11-819c-e20310bb532c" name="Changes" comment="Session 3 - Multithreading">
+      <change afterPath="$PROJECT_DIR$/session4/src/main/java/org/example/functional/fortunes/ChineseFortune.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session4/src/main/java/org/example/functional/fortunes/Fortune.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session4/src/main/java/org/example/functional/fortunes/MessageRepeater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session4/src/test/java/org/example/functional/fortunes/TestFortunes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/session4/src/test/java/org/example/functional/streams/TestStreams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/session3/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/session3/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/session3/src/test/java/org/example/multithreading/org/example/multithreading/threadlocals/TestServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/session3/src/test/java/org/example/multithreading/org/example/multithreading/threadlocals/TestServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/src/main/java/org/example/multithreading/threadlocals/ServerContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/session3/src/main/java/org/example/multithreading/threadlocals/ServerContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/src/test/java/org/example/multithreading/org/example/multithreading/basics/TestThreads.java" beforeDir="false" afterPath="$PROJECT_DIR$/session3/src/test/java/org/example/multithreading/org/example/multithreading/basics/TestThreads.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/src/test/java/org/example/multithreading/org/example/multithreading/messagepassing/TestBlockingQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/session3/src/test/java/org/example/multithreading/org/example/multithreading/messagepassing/TestBlockingQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session3/src/test/java/org/example/multithreading/org/example/multithreading/sharedmemory/TestMessageContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/session3/src/test/java/org/example/multithreading/org/example/multithreading/sharedmemory/TestMessageContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session4/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/session4/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/session4/session4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/session4/session4.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,94 +64,96 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="temurin-17" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.idea" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.3632184" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="org.example.functional.fortunes" />
       <recent name="org.example.aopwithannotations" />
       <recent name="org.example.aop" />
       <recent name="org.example.collections" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestServer.checkRequestIds">
-    <configuration name="TestAtomicVariables.testAtomicInteger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session3" />
+  <component name="RunManager" selected="JUnit.TestStreams.checkOrderOfOperations">
+    <configuration name="TestStreams.checkOrderOfOperations" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.org.example.multithreading.concurrency.*" />
+          <option name="PATTERN" value="org.example.functional.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.multithreading.org.example.multithreading.concurrency" />
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.org.example.multithreading.concurrency.TestAtomicVariables" />
-      <option name="METHOD_NAME" value="testAtomicInteger" />
+      <option name="PACKAGE_NAME" value="org.example.functional.streams" />
+      <option name="MAIN_CLASS_NAME" value="org.example.functional.streams.TestStreams" />
+      <option name="METHOD_NAME" value="checkOrderOfOperations" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAtomicVariables.testSimpleCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session3" />
+    <configuration name="TestStreams.exampleWithCollections" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.org.example.multithreading.concurrency.*" />
+          <option name="PATTERN" value="org.example.functional.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.multithreading.org.example.multithreading.concurrency" />
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.org.example.multithreading.concurrency.TestAtomicVariables" />
-      <option name="METHOD_NAME" value="testSimpleCounter" />
+      <option name="PACKAGE_NAME" value="org.example.functional.streams" />
+      <option name="MAIN_CLASS_NAME" value="org.example.functional.streams.TestStreams" />
+      <option name="METHOD_NAME" value="exampleWithCollections" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAtomicVariables.testSynchronizedCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session3" />
+    <configuration name="TestStreams.exampleWithPerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.org.example.multithreading.concurrency.*" />
+          <option name="PATTERN" value="org.example.functional.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.multithreading.org.example.multithreading.concurrency" />
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.org.example.multithreading.concurrency.TestAtomicVariables" />
-      <option name="METHOD_NAME" value="testSynchronizedCounter" />
+      <option name="PACKAGE_NAME" value="org.example.functional.streams" />
+      <option name="MAIN_CLASS_NAME" value="org.example.functional.streams.TestStreams" />
+      <option name="METHOD_NAME" value="exampleWithPerson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestAtomicVariables.testVolatileCounter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session3" />
+    <configuration name="TestStreams.groupPeopleByGeneration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.org.example.multithreading.concurrency.*" />
+          <option name="PATTERN" value="org.example.functional.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.multithreading.org.example.multithreading.concurrency" />
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.org.example.multithreading.concurrency.TestAtomicVariables" />
-      <option name="METHOD_NAME" value="testVolatileCounter" />
+      <option name="PACKAGE_NAME" value="org.example.functional.streams" />
+      <option name="MAIN_CLASS_NAME" value="org.example.functional.streams.TestStreams" />
+      <option name="METHOD_NAME" value="groupPeopleByGeneration" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestServer.checkRequestIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="session3" />
+    <configuration name="TestStreams.numberOfPeopleByGeneration" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="session4" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.multithreading.org.example.multithreading.threadlocals.*" />
+          <option name="PATTERN" value="org.example.functional.streams.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.multithreading.org.example.multithreading.threadlocals" />
-      <option name="MAIN_CLASS_NAME" value="org.example.multithreading.org.example.multithreading.threadlocals.TestServer" />
-      <option name="METHOD_NAME" value="checkRequestIds" />
+      <option name="PACKAGE_NAME" value="org.example.functional.streams" />
+      <option name="MAIN_CLASS_NAME" value="org.example.functional.streams.TestStreams" />
+      <option name="METHOD_NAME" value="numberOfPeopleByGeneration" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestServer.checkRequestIds" />
-        <item itemvalue="JUnit.TestAtomicVariables.testAtomicInteger" />
-        <item itemvalue="JUnit.TestAtomicVariables.testSynchronizedCounter" />
-        <item itemvalue="JUnit.TestAtomicVariables.testVolatileCounter" />
-        <item itemvalue="JUnit.TestAtomicVariables.testSimpleCounter" />
+        <item itemvalue="JUnit.TestStreams.checkOrderOfOperations" />
+        <item itemvalue="JUnit.TestStreams.groupPeopleByGeneration" />
+        <item itemvalue="JUnit.TestStreams.numberOfPeopleByGeneration" />
+        <item itemvalue="JUnit.TestStreams.exampleWithPerson" />
+        <item itemvalue="JUnit.TestStreams.exampleWithCollections" />
       </list>
     </recent_temporary>
   </component>
@@ -170,7 +183,8 @@
       <workItem from="1652309591304" duration="10616000" />
       <workItem from="1652343790190" duration="18858000" />
       <workItem from="1652779562776" duration="1050000" />
-      <workItem from="1652784047330" duration="36385000" />
+      <workItem from="1652784047330" duration="42437000" />
+      <workItem from="1653545097143" duration="14286000" />
     </task>
     <task id="LOCAL-00001" summary="Session 2">
       <created>1652309216949</created>
@@ -228,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652963546205</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Session 3 - Multithreading">
+      <created>1652964028320</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1652964028320</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

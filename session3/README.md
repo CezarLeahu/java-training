@@ -174,7 +174,7 @@ Both ensure thread-safety, but they ensure it in different ways:
   - great and sufficient for most use-cases (e.g. local caches of data)
 
 ### Atomic variables
-
+* Wrapper over basic types with atomic operations, e.g. `incrementAndGet`, `getAndSet`, `compareAndSet`, etc.
 
 ThreadLocal variables
 ---

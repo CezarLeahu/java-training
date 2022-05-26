@@ -10,6 +10,7 @@ import java.util.concurrent.Executors;
 import static java.util.UUID.randomUUID;
 
 public class TestBlockingQueue {
+
     private final BlockingQueue<String> messageQueue = new ArrayBlockingQueue<>(5);
 
     public void producer() {

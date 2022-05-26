@@ -66,19 +66,15 @@ public class TestThreads {
     public void newThreadWithCallable() throws InterruptedException, ExecutionException {
         System.out.println("[main thread (1)]");
 
-        FutureTask<Integer> task = new FutureTask<>(new Callable<Integer>() {
-            @Override
-            public Integer call() throws Exception {
-                // intensive computation
-                Thread.sleep(1000);
-                return 1 + 1;
-            }
+        FutureTask<Integer> task = new FutureTask<>(() -> {
+            // intensive computation
+            Thread.sleep(1000);
+            return 1 + 1;
         });
 
         new Thread(task).start();
 
         System.out.println("[main thread (2)] - task.isDone(): " + task.isDone());
-
 
         Thread.sleep(2000);
 
